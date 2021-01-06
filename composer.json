@@ -1,0 +1,21 @@
+{
+  "name": "fire-scheme/bulletin-board",
+  "version": "1.0.0",
+  "description": "bulletin-board",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "FireScheme\\BulletinBoard\\": "src/"
+    }
+  },
+  "repositories": [
+    {"type": "composer", "url": "https://mirrors.aliyun.com/composer/"},
+    {"packagist": false}
+  ],
+  "config" : {
+    "vendor-dir" : "packages",
+    "secure-http": false
+  },
+  "license": "MIT"
+}
